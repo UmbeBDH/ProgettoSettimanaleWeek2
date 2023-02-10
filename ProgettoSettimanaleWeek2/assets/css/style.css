@@ -1,0 +1,79 @@
+
+
+#bacKG{
+  background-color: red;  
+}
+
+#Titolo{
+        text-align: center;
+        color: black;
+       } 
+
+
+
+ .calculator {
+        width: 200px;
+        height: 335px;
+        margin: 0 auto;
+        background-color:black;
+        border-radius: 27px;
+        padding: 20px;
+      }
+      .display {
+        height: 60px;
+        background-color: limegreen;
+        text-align: right;
+        padding-right: 20px;
+        font-size: 36px;
+        margin-bottom: 20px;
+        border-radius: 45px;
+      }
+      .buttons {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
+
+
+      }
+      .btn {
+        text-align: center;
+        height: 45px;
+        width: 45px;
+        color: black;
+        background-color: limegreen;
+        border: 1px solid blue;
+        font-size: 35px;
+        cursor: pointer;
+        border-radius: 20px;
+      }
+
+     #btnEqual{
+      height: 45px;
+        width: 200px;
+        color: #175c97;
+        background-color: green;
+        border: 1px solid blue;
+        font-size: 35px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 100px;
+     }
+
+     #btnClear{
+      text-align: center;
+        height: 45px;
+        width: 45px;
+        color: black;
+        background-color: red;
+        border: 1px solid blue;
+        font-size: 35px;
+        cursor: pointer;
+        border-radius: 20px;
+     }
+
+
+
+
+
+
